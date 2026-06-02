@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Skills & Certificates | Your Name</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Noto+Sans+Thai:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="no-print sticky top-0 z-40 border-b border-slate-200/70 bg-white/85 backdrop-blur">
+      <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+        <a class="flex items-center gap-3 font-black tracking-tight text-slate-950" href="index.html"><span class="grid h-10 w-10 place-items-center rounded-lg bg-slate-950 text-white">YN</span><span>Your Name</span></a>
+        <div class="hidden items-center gap-1 md:flex">
+          <a class="nav-link rounded-md px-3 py-2 text-sm font-bold" href="index.html">Resume</a>
+          <a class="nav-link rounded-md px-3 py-2 text-sm font-bold" href="experience.html">Experience</a>
+          <a class="nav-link rounded-md px-3 py-2 text-sm font-bold" href="projects.html">Projects</a>
+          <a class="nav-link active rounded-md px-3 py-2 text-sm font-bold" href="certificates.html">Skills & Certificates</a>
+          <a class="nav-link rounded-md px-3 py-2 text-sm font-bold" href="contact.html">Contact</a>
+        </div>
+        <button class="focus-ring rounded-md border border-slate-300 p-2 md:hidden" aria-label="Open menu" aria-expanded="false" data-menu-button><i data-lucide="menu" class="h-5 w-5"></i></button>
+      </nav>
+      <div class="hidden border-t border-slate-200 bg-white px-4 py-3 md:hidden" data-mobile-menu>
+        <div class="grid gap-2">
+          <a class="nav-link rounded-md px-3 py-2 text-sm font-bold" href="index.html">Resume</a>
+          <a class="nav-link rounded-md px-3 py-2 text-sm font-bold" href="experience.html">Experience</a>
+          <a class="nav-link rounded-md px-3 py-2 text-sm font-bold" href="projects.html">Projects</a>
+          <a class="nav-link active rounded-md px-3 py-2 text-sm font-bold" href="certificates.html">Skills & Certificates</a>
+          <a class="nav-link rounded-md px-3 py-2 text-sm font-bold" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+      <section class="glass rounded-xl p-6 md:p-10">
+        <p class="text-sm font-black uppercase tracking-[0.18em] text-blue-700">Capability Map</p>
+        <h1 class="section-title mt-3 font-black text-slate-950">Skills และใบรับรอง</h1>
+        <p class="mt-5 max-w-3xl text-lg leading-8 text-slate-600">หน้านี้ใช้แสดงทักษะแยกหมวด พร้อมใบรับรอง คอร์ส หรือ achievement ที่ช่วยยืนยันความพร้อมสำหรับตำแหน่ง Developer</p>
+      </section>
+
+      <section class="mt-10 grid gap-6 lg:grid-cols-3">
+        <article class="soft-card rounded-lg p-6">
+          <div class="mb-4 flex items-center gap-3">
+            <span class="grid h-11 w-11 place-items-center rounded-lg bg-blue-100 text-blue-700"><i data-lucide="globe" class="h-5 w-5"></i></span>
+            <h2 class="text-2xl font-black">Web</h2>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="chip rounded-md px-3 py-1 text-sm">HTML5</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">CSS3</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">JavaScript</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">TypeScript</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">React</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">Next.js</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">Node.js</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">REST API</span>
+          </div>
+        </article>
+
+        <article class="soft-card rounded-lg p-6">
+          <div class="mb-4 flex items-center gap-3">
+            <span class="grid h-11 w-11 place-items-center rounded-lg bg-emerald-100 text-emerald-700"><i data-lucide="smartphone" class="h-5 w-5"></i></span>
+            <h2 class="text-2xl font-black">Mobile</h2>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="chip rounded-md px-3 py-1 text-sm">Flutter</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">Dart</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">React Native</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">Firebase</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">Android</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">Mobile UI</span>
+          </div>
+        </article>
+
+        <article class="soft-card rounded-lg p-6">
+          <div class="mb-4 flex items-center gap-3">
+            <span class="grid h-11 w-11 place-items-center rounded-lg bg-amber-100 text-amber-700"><i data-lucide="settings" class="h-5 w-5"></i></span>
+            <h2 class="text-2xl font-black">Tools</h2>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="chip rounded-md px-3 py-1 text-sm">Git</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">GitHub</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">VS Code</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">Figma</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">Postman</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">Docker</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">MySQL</span>
+            <span class="chip rounded-md px-3 py-1 text-sm">MongoDB</span>
+          </div>
+        </article>
+      </section>
+
+      <section class="mt-10">
+        <div class="mb-6 flex items-end justify-between gap-4">
+          <div>
+            <p class="text-sm font-black uppercase tracking-[0.18em] text-blue-700">Certificates</p>
+            <h2 class="mt-3 text-3xl font-black text-slate-950">ใบรับรองและคอร์สที่เกี่ยวข้อง</h2>
+          </div>
+        </div>
+        <div class="grid gap-5 md:grid-cols-2">
+          <article class="soft-card rounded-lg p-6">
+            <div class="flex items-start gap-4">
+              <span class="grid h-12 w-12 shrink-0 place-items-center rounded-lg bg-blue-600 text-white"><i data-lucide="badge-check" class="h-6 w-6"></i></span>
+              <div>
+                <h3 class="text-xl font-black">Certificate Name 01</h3>
+                <p class="mt-1 font-bold text-slate-600">Issued by Organization Name | Month 20XX</p>
+                <p class="mt-3 leading-7 text-slate-600">ใส่รายละเอียดสั้นๆ เช่น เรียนเรื่อง JavaScript, Frontend, Cloud, Database หรือ Software Testing</p>
+                <a class="mt-4 inline-flex items-center gap-2 font-extrabold text-blue-700" href="#" target="_blank" rel="noreferrer">View certificate <i data-lucide="external-link" class="h-4 w-4"></i></a>
+              </div>
+            </div>
+          </article>
+          <article class="soft-card rounded-lg p-6">
+            <div class="flex items-start gap-4">
+              <span class="grid h-12 w-12 shrink-0 place-items-center rounded-lg bg-cyan-600 text-white"><i data-lucide="award" class="h-6 w-6"></i></span>
+              <div>
+                <h3 class="text-xl font-black">Certificate Name 02</h3>
+                <p class="mt-1 font-bold text-slate-600">Issued by Organization Name | Month 20XX</p>
+                <p class="mt-3 leading-7 text-slate-600">เพิ่มใบรับรองอื่นๆ หรือ achievement เช่น hackathon, coding bootcamp, online course หรือ workshop</p>
+                <a class="mt-4 inline-flex items-center gap-2 font-extrabold text-blue-700" href="#" target="_blank" rel="noreferrer">View certificate <i data-lucide="external-link" class="h-4 w-4"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-10 border-t border-slate-200 bg-white/70">
+      <div class="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-6 text-sm text-slate-500 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8">
+        <p>© <span data-year></span> Your Name.</p>
+        <a class="font-bold text-slate-700 hover:text-blue-600" href="contact.html">Contact</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>lucide.createIcons();</script>
+  </body>
+</html>
